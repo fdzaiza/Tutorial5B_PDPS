@@ -20,13 +20,12 @@ public class SimpleCalculator extends JFrame implements ActionListener {
         textResult.setEditable(false); // make result field non-editable
 
         addButton = new JButton("+");
-        minusButton = new JButton("-");
-        multiplyButton = new JButton("*");
-        divideButton = new JButton("/");
-
         addButton.addActionListener(this);
+        minusButton = new JButton("-");
         minusButton.addActionListener(this);
+        multiplyButton = new JButton("*");
         multiplyButton.addActionListener(this);
+        divideButton = new JButton("/");
         divideButton.addActionListener(this);
 
         // Layout setup: 6 rows, 2 columns
