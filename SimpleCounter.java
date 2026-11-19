@@ -13,7 +13,7 @@ public class SimpleCounter extends JFrame implements ActionListener {
         label = new JLabel("Counter Value:");
         textField = new JTextField(10);
         textField.setText("0");
-        textField.setEditable(false); // make JTextField non-editable
+        textField.setEditable(false); 
         countButton = new JButton("Count");
 
         // Register the button with ActionListener
